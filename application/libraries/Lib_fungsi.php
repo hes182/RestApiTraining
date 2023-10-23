@@ -368,7 +368,7 @@ class Lib_fungsi
       }
       return $set;
    }
-   public function cekSamaganti($value = "", $compare, $substitute)
+   public function cekSamaganti($value = "", $compare = "", $substitute = "")
    {
       $new_value = "";
       $old_value = trim($value);
